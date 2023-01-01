@@ -33,7 +33,6 @@ const TeleOperation = () => {
     }
     init_connections()
     const handleMove = (event) => {
-        console.log(event.x)
         console.log('handleMove');
         // we need to create a ROS publisher on the topic cmd_vel
         let cmd_vel = new window.ROSLIB.Topic({

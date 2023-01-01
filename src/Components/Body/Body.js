@@ -11,8 +11,8 @@ const Body = () => {
             <h1 className='text-center mt-3'>Robot Control Page</h1>
               <h6>Counter:{ count} </h6>
               <Button onClick={() => { let result = count; result++; setCount(result) }} variant="primary">Add</Button>
-        <Connections></Connections>
-        <TeleOperation/>
+              <Connections></Connections>
+              <TeleOperation/>
           </main>
     </Container>
   )
